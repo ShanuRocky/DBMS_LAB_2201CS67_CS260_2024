@@ -14,8 +14,7 @@ services:
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
     environment:
-      PMA_HOST: 127.0.0.1  
-      PMA_PORT: 3306
+      PMA_HOST: 57cad3d7dfa
     ports:
       - "8080:80"  # Map phpMyAdmin port to host port (default 80)
 
